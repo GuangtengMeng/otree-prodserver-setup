@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'oTree VM Documentation'
-copyright = '2018, Christian Keonig-Kersting'
+copyright = '2018, Christian Koenig-Kersting'
 author = 'Christian Koenig-Kersting'
 
 # The short X.Y version
@@ -129,7 +129,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'oTreeVMDocumentation.tex', 'oTree VM Documentation Documentation',
-     'Christian König-Kersting', 'manual'),
+     'Christian Koenig-Kersting', 'manual'),
 ]
 
 
