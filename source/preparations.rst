@@ -17,7 +17,7 @@ As ``root`` run::
 
 	wget https://github.com/chkgk/otree_setup_scripts/archive/master.zip
 	unzip master.zip
-    cd otree_setup_scripts-master
+	cd otree_setup_scripts-master
 	chmod +x setup_otree_server.sh
 
 You are now ready for the first step of the installation.

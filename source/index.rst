@@ -25,6 +25,7 @@ Contents
    :maxdepth: 2
 
    preparations.rst
+   quick.rst
    step1.rst
    step2.rst
    step3.rst

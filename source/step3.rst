@@ -5,17 +5,6 @@ Step 3: Database and Supervisor
 
 We now setup the PostgreSQL database and prepare a supervisor script which makes sure that the oTree web server is automatically started and restarted if if fails for any reason.
 
-Quick Setup
-^^^^^^^^^^^
-
-Run as ``otree``::
-
-	./3_setup_database.sh
-
-
-Step by step instructions
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
 PostgreSQL
 """"""""""
 

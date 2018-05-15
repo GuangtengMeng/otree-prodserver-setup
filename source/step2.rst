@@ -5,16 +5,6 @@ Step 2: Python 3.6
 
 The Debian 9 stable branch includes Python up to version 3.5. While oTree runs on this version, there are some bugs related to the presentation of the monitoring table. Columns appear to be scrambled. To avoid this, we install Python 3.6 from sources.
 
-Quick Setup
-^^^^^^^^^^^
-
-Run as ``otree``::
-
-	./2_install_python36.sh
-
-
-Step by step instructions
-^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Get Python 3.6
 """"""""""""""

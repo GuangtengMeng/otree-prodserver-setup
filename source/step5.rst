@@ -5,24 +5,9 @@ Step 5: Nginx
 
 We now set up nginx to serve as a reverse proxy. This allows us to easily set up SSL certificates. 
 
-Quick Setup: Without SSL
-^^^^^^^^^^^^^^^^^^^^^^^^
 
-Run as ``otree``::
-
-    ./5_setup_nginx.sh
-
-
-Quick Setup: SSL
-^^^^^^^^^^^^^^^^
-
-Run as ``otree``::
-
-    ./5_setup_nginx_ssl.sh
-
-
-Step by step instructions: Without SSL
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Setup Without SSL
+^^^^^^^^^^^^^^^^^
 
 We need to remove the default nginx config and add a new one for oTree. Let's remove the old one first::
 
@@ -59,8 +44,8 @@ Copy in the following script::
 Save the file and exit nano with [ctrl] + [s] and [ctrl] + [x].
 
 
-Step by step instructions: SSL
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Setup with SSL
+^^^^^^^^^^^^^^
 
 We need to remove the default nginx config and add a new one for oTree. Let's remove the old one first::
 

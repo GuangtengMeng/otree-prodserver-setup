@@ -6,20 +6,6 @@ Step 1: Software, Users and Privileges
 This step requires the installation scripts to be downloaded and currently being logged in as ``root``. 
 Read :ref:`preparations` if this is not the case.
 
-Quick Setup
-^^^^^^^^^^^
-
-Run as ``root``::
-
-	./setup_otree_server.sh
-
-Then follow the instructions.
-
-
-Step by step instructions
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-`Note:` This is the long and extensively documented version of what the Quick Start script above accomplishes. If you have run the command above and did not encounter any errors, you may advance to step 2.
 
 Software
 """"""""
