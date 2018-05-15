@@ -68,7 +68,6 @@ Prepare userspace installation
 
 Now it is time to continue the installation from the userspace. Before we can do so, however, we need to copy over the installation scripts to ``otree``'s home directory::
 
-	unzip otree_setup_scripts.zip
 	mv *.sh /home/otree/
 	chmod +x /home/otree/*.sh 
 	chown otree:otree /home/otree/*.sh
