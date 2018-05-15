@@ -1,6 +1,6 @@
 # The oTree VM Template Documentation
 
-This repository contains all the documentation of the[oTree VM Template](http://otree-vm-docs.readthedocs.io).
+This repository contains all the documentation of the [oTree VM Template](http://otree-vm-docs.readthedocs.io).
 
 To edit:
 
