@@ -15,8 +15,9 @@ If it is not, install openssh-server as ``root``:
 The following steps will reference installation scripts. These need to be downloaded, extracted and made executable.
 As ``root`` run::
 
-	wget http://ckgk.de/otree_vm_setup.zip
-	unzip otree_vm_setup.zip
+	wget https://github.com/chkgk/otree_setup_scripts/archive/master.zip
+	unzip master.zip
+    cd otree_setup_scripts-master
 	chmod +x setup_otree_server.sh
 
 You are now ready for the first step of the installation.

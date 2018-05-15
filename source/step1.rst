@@ -13,6 +13,8 @@ Run as ``root``::
 
 	./setup_otree_server.sh
 
+Then follow the instructions.
+
 
 Step by step instructions
 ^^^^^^^^^^^^^^^^^^^^^^^^^
