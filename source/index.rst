@@ -30,7 +30,8 @@ Contents
    step2.rst
    step3.rst
    step4.rst
-
+   step5.rst
+   usage.rst
 
 Indices
 ==================

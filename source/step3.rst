@@ -53,4 +53,23 @@ Include the following lines::
 
 Make sure to replace ``YOUR_DATABASE_PASSWORD`` with the one you set above. Also come up with a password for the oTree web interface and replace ``YOUR_WEBINTERFACE_ADMIN_PASSWORD`` accordingly. Finally, save the file and exit nano with [ctrl] + [s] and [ctrl] + [x].
 
+
+Environment Variables
+"""""""""""""""""""""
+
+Finally, we want ``otree`` to be able to manually reset the database and invoke other oTree commands. We need to make sure that the credentials are available as environment variables whenever ``otree`` logs in.
+
+Edit ``/home/otree/.otree_env`` with nano::
+
+	nano /home/otree/.otree_env
+
+Add the following lines to the end::
+
+	export DATABASE_URL="postgres://otree_user:YOUR_DATABASE_PASSWORD@localhost/django_db"
+	export OTREE_ADMIN_PASSWORD="YOUR_WEBINTERFACE_ADMIN_PASSWORD"
+	export OTREE_PRODUCTION=1
+	export OTREE_AUTH_LEVEL=STUDY
+
+Again, make sure to replace ``YOUR_DATABASE_PASSWORD`` with the one you set above. Also come up with a password for the oTree web interface and replace ``YOUR_WEBINTERFACE_ADMIN_PASSWORD`` accordingly. Finally, save the file and exit nano with [ctrl] + [s] and [ctrl] + [x].
+
 Continue with step 4.

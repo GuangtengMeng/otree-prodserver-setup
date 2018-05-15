@@ -40,13 +40,14 @@ This might take a while. Time to get some coffee.
 Installation
 """"""""""""
 
-By default ``python`` points to ``python2.7`` and ``python3`` to ``python3.5``. We will change the latter reference to ``python3.6``. We do not touch the ``python`` -> ``python2.7`` association as it would interfere with other Debian packages.
+By default ``python`` points to ``python2.7``. We will add python 3.6 as an alternative, but give the old association highest priority. We will have to use ``python3.6`` explicitly (rather than just ``python`` or ``python3``), but at least we are not breaking anything.
 
 .. code-block:: bash
 
 	sudo make altinstall
-	sudo update-alternatives --install /usr/bin/python python3 /usr/local/bin/python3.6 40
-	sudo update-alternatives --install /usr/bin/python python3 /usr/bin/python3.5 30
+	sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 50
+	sudo update-alternatives --install /usr/bin/python python /usr/local/bin/python3.6 40
+	sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.5 30
 
 Leave and remove working directory::
 
