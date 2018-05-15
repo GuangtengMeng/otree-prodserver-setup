@@ -19,12 +19,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'oTree VM Documentation'
+project = 'oTree Server Setup'
 copyright = '2018, Christian Koenig-Kersting'
 author = 'Christian Koenig-Kersting'
 
 # The short X.Y version
-version = ''
+version = '1.0'
 # The full version, including alpha/beta/rc tags
 release = ''
 
@@ -128,7 +128,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'oTreeVMDocumentation.tex', 'oTree VM Documentation Documentation',
+    (master_doc, 'oTreeVMDocumentation.tex', 'oTree Server Setup',
      'Christian Koenig-Kersting', 'manual'),
 ]
 
@@ -138,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'otreevmdocumentation', 'oTree VM Documentation Documentation',
+    (master_doc, 'otreevmdocumentation', 'oTree Server Setup',
      [author], 1)
 ]
 
@@ -149,7 +149,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'oTreeVMDocumentation', 'oTree VM Documentation Documentation',
+    (master_doc, 'oTreeVMDocumentation', 'oTree Server Setup',
      author, 'oTreeVMDocumentation', 'One line description of project.',
      'Miscellaneous'),
 ]

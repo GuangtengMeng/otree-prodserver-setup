@@ -1,6 +1,6 @@
-.. _requirements:
+.. _preparations:
 
-Requirements
+Preparations
 ============
 
 It is assumed that ``root`` can login to a standard shell.

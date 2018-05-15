@@ -4,7 +4,7 @@ Step 1: Software, Users and Privileges
 ======================================
 
 This step requires the installation scripts to be downloaded and currently being logged in as ``root``. 
-Read :ref:`requirements` if this is not the case.
+Read :ref:`preparations` if this is not the case.
 
 Quick Setup
 ^^^^^^^^^^^
@@ -29,12 +29,12 @@ First we install the neccessary software using Debian's package manager::
  
 This includes:
 
-* `Link PostgreSQL Database <https://www.postgresql.org/>`_
-* `Link Redis Datastore <https://redis.io/>`_
-* `Link Git Version Control System <https://git-scm.com/>`_
-* `Link Nginx HTTP and reverse proxy server <https://nginx.org/>`_
-* `Link Supervisor Process Control System <http://supervisord.org/>`_
-* `Link Sudo <https://www.sudo.ws/>`_
+* `PostgreSQL Database <https://www.postgresql.org/>`_
+* `Redis Datastore <https://redis.io/>`_
+* `Git Version Control System <https://git-scm.com/>`_
+* `Nginx HTTP and reverse proxy server <https://nginx.org/>`_
+* `Supervisor Process Control System <http://supervisord.org/>`_
+* `Sudo <https://www.sudo.ws/>`_
 
 
 User and privileges
