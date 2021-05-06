@@ -1,4 +1,6 @@
-# The oTree Server Setup Documentation
+# Not maintained, instructions are severely outdated.
+
+## The oTree Server Setup Documentation
 
 This repository contains all the documentation of the [oTree Server Setup](http://otree-server-setup.readthedocs.io).
 
