@@ -19,12 +19,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'oTree Server Setup'
-copyright = '2018, Christian Koenig-Kersting'
-author = 'Christian Koenig-Kersting'
+project = 'oTree Prodserver Setup'
+copyright = '2022, Guang-Teng Meng'
+author = 'Guang-Teng Meng'
 
 # The short X.Y version
-version = '1.0'
+version = '1.1'
 # The full version, including alpha/beta/rc tags
 release = ''
 
