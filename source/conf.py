@@ -128,8 +128,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'oTreeVMDocumentation.tex', 'oTree Server Setup',
-     'Christian Koenig-Kersting', 'manual'),
+    (master_doc, 'oTreeVMDocumentation.tex', 'oTree Prodserver Setup',
+     'Guang-Teng Meng', 'manual'),
 ]
 
 
@@ -138,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'otreevmdocumentation', 'oTree Server Setup',
+    (master_doc, 'otreevmdocumentation', 'oTree Prodserver Setup',
      [author], 1)
 ]
 
@@ -149,7 +149,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'oTreeVMDocumentation', 'oTree Server Setup',
+    (master_doc, 'oTreeVMDocumentation', 'oTree Prodserver Setup',
      author, 'oTreeVMDocumentation', 'One line description of project.',
      'Miscellaneous'),
 ]
