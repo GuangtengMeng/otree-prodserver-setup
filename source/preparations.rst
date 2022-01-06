@@ -9,13 +9,13 @@ If it is not, install openssh-server as ``root``:
 
 .. code-block:: bash
 
-	apt-get update
-	apt-get install openssh-server
+	apt update
+	apt install openssh-server
 
 The following steps will reference installation scripts. These need to be downloaded, extracted and made executable.
 As ``root`` run::
 
-	wget https://github.com/chkgk/otree_setup_scripts/archive/master.zip
+	wget https://github.com/guangtengmeng/otree_setup_scripts/archive/master.zip
 	unzip master.zip
 	cd otree_setup_scripts-master
 	chmod +x setup_otree_server.sh

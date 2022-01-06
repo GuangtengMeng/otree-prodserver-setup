@@ -10,11 +10,13 @@ Read :ref:`preparations` if this is not the case.
 Software
 """"""""
 
-First we install the neccessary software using Debian's package manager::
+First we install the neccessary software using Ubuntu's package manager::
 
-	apt-get update
-	apt-get install -y libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm zlib1g-dev libssl-dev libncurses5-dev libncursesw5-dev xz-utils tk-dev postgresql postgresql-contrib redis-server git supervisor nginx sudo
- 
+	sudo apt update
+	sudo apt upgrade
+	sudo install software-properties-common
+	sudo apt install libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm zlib1g-dev libssl-dev libncurses5-dev libncursesw5-dev xz-utils tk-dev postgresql postgresql-contrib redis-server git supervisor nginx sudo
+
 This includes:
 
 * `PostgreSQL Database <https://www.postgresql.org/>`_
