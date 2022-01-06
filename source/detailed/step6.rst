@@ -1,7 +1,7 @@
 .. _final:
 
-Final Steps
-===========
+Step 6: Final
+=============
 
 The final step is to lock down the ``otree`` user account. Throughout the installation, it had full sudo privileges. To remove them invoke::
 

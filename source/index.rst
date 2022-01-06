@@ -28,7 +28,6 @@ Contents
    preparations.rst
    quick.rst
    detailed/index
-   final.rst
    usage.rst
 
 Indices
